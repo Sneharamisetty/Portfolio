@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SnehaLatha Ramisetty - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in-up { animation: fadeInUp 0.6s ease-out forwards; }
+    .animation-delay-200 { animation-delay: 200ms; }
+    .animation-delay-400 { animation-delay: 400ms; }
+    .animation-delay-600 { animation-delay: 600ms; }
+    .bg-gradient { background: linear-gradient(to bottom right, #1a202c, #4a5568, #6b46c1); }
+    .text-gradient { background-clip: text; -webkit-background-clip: text; color: transparent; background-image: linear-gradient(to right, #ec4899, #9776e5); }
+  </style>
+</head>
+<body class="bg-gradient text-gray-100 min-h-screen">
+  <header class="sticky top-0 z-50 bg-gray-900 bg-opacity-80 backdrop-filter backdrop-blur-sm shadow-lg">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl sm:text-2xl font-bold text-gradient">SnehaLatha Ramisetty</h1>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#home" class="hover:text-pink-500 transition-colors">Home</a>
+        <a href="#experience" class="hover:text-pink-500 transition-colors">Experience</a>
+        <a href="#skills" class="hover:text-pink-500 transition-colors">Skills</a>
+        <a href="#projects" class="hover:text-pink-500 transition-colors">Projects</a>
+        <a href="#certifications" class="hover:text-pink-500 transition-colors">Certifications</a>
+        <a href="#contact" class="hover:text-pink-500 transition-colors">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="py-16 text-center">
+    <div class="container mx-auto">
+      <img src="images/profile.png" alt="SnehaLatha Ramisetty" class="w-40 h-40 rounded-full mx-auto mb-4 border-4 border-pink-500">
+      <h1 class="text-4xl font-bold text-gradient mb-2">SnehaLatha Ramisetty</h1>
+      <p class="text-lg">Full Stack Developer | Java Developer | AI-ML Enthusiast</p>
+      <p class="max-w-xl mx-auto mt-4">Strong in front-end and back-end technologies including ReactJS, Spring Boot, MongoDB, and more. Passionate about solving real-world problems through efficient and scalable code.</p>
+    </div>
+  </section>
+
+  <section id="experience" class="py-16 bg-gray-900">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-gradient text-center mb-10">Experience</h2>
+      <div class="space-y-8">
+        <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+          <h3 class="text-xl text-pink-500 font-semibold">AI-ML Virtual Internship</h3>
+          <p class="text-gray-300">Sept 2023 – Nov 2023</p>
+          <ul class="list-disc list-inside mt-2 text-gray-300">
+            <li>Learned topics on Machine Learning like Supervised and Unsupervised Learning</li>
+            <li>Collaborated with mentors to define project objectives and professional alignment</li>
+          </ul>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+          <h3 class="text-xl text-pink-500 font-semibold">Android Developer Virtual Internship</h3>
+          <p class="text-gray-300">July 2023 – Sept 2023</p>
+          <ul class="list-disc list-inside mt-2 text-gray-300">
+            <li>Learned Android Development, Kotlin Basics, Layouts, Data Persistence</li>
+            <li>Developed basic Android apps connected to the internet</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="py-16 bg-gray-800">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-gradient text-center mb-10">Skills</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-6 text-center">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="h-12 mx-auto" title="HTML">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="h-12 mx-auto" title="CSS">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="h-12 mx-auto" title="JavaScript">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="h-12 mx-auto" title="ReactJS">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" class="h-12 mx-auto" title="Java">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="h-12 mx-auto" title="Python">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" class="h-12 mx-auto" title="C">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" class="h-12 mx-auto" title="NodeJS">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" class="h-12 mx-auto" title="Spring Boot">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" class="h-12 mx-auto" title="MongoDB">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="h-12 mx-auto" title="SQL">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="h-12 mx-auto" title="Git">
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-16 bg-gray-900">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-gradient text-center mb-10">Projects</h2>
+      <div class="space-y-10">
+        <div class="bg-pink-600 text-white rounded-lg p-6 shadow-md">
+          <h3 class="text-2xl font-bold mb-2">Expense Tracker</h3>
+          <p class="mb-2">Built using React.js, Tailwind CSS and Chart.js to track expenses.</p>
+          <a href="https://expense-peek.vercel.app/" target="_blank" class="underline text-white hover:text-gray-200">Live Demo</a>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-md border border-gray-700">
+          <h3 class="text-xl text-pink-500 font-semibold">MediBooker</h3>
+          <p class="text-gray-300">Full-stack doctor appointment booking system with authentication.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-md border border-gray-700">
+          <h3 class="text-xl text-pink-500 font-semibold">Flash Card App</h3>
+          <p class="text-gray-300">HTML/CSS/JS flashcard app with flipping animation and storage.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-md border border-gray-700">
+          <h3 class="text-xl text-pink-500 font-semibold">3D Flip Rotate</h3>
+          <p class="text-gray-300">Interactive card flipping animation using CSS perspective.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" class="py-16 bg-gray-800">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-gradient mb-10">Certifications</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="bg-gray-900 p-4 rounded-lg border border-gray-700">
+          <h3 class="text-pink-500 font-semibold">NPTEL Cloud Computing</h3>
+          <p class="text-gray-300">IIT Madras – Elite</p>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg border border-gray-700">
+          <h3 class="text-pink-500 font-semibold">NPTEL Internet of Things</h3>
+          <p class="text-gray-300">IIT Kharagpur – Elite</p>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-lg border border-gray-700">
+          <h3 class="text-pink-500 font-semibold">AI-Powered Python Workshop</h3>
+          <p class="text-gray-300">AQUATECH Foundations</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 bg-gray-900">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-gradient mb-6">Contact Me</h2>
+      <p class="mb-2">Email: <a href="mailto:sneharamisetty3122@gmail.com" class="text-pink-500">sneharamisetty3122@gmail.com</a></p>
+      <p class="mb-2">Phone: <a href="tel:+919390003882" class="text-pink-500">+91 93900 03882</a></p>
+      <p class="mb-2">LinkedIn: <a href="https://www.linkedin.com/in/sneha-ramisetty-8a74a328b/" class="text-pink-500">Sneha Ramisetty</a></p>
+      <p>GitHub: <a href="https://github.com/Sneharamisetty" class="text-pink-500">@Sneharamisetty</a></p>
+    </div>
+  </section>
+
+  <footer class="text-center text-sm text-gray-400 py-6 bg-gray-800">
+    <p>&copy; 2025 SnehaLatha Ramisetty. All rights reserved.</p>
+  </footer>
+</body>
+</html>
